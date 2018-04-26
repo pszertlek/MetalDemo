@@ -39,6 +39,7 @@
 		18A26300207F3F220020D082 /* One.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = One.entitlements; sourceTree = "<group>"; };
 		18A26304207F3F9F0020D082 /* OneRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRender.swift; sourceTree = "<group>"; };
 		18A26306207F441A0020D082 /* OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneView.swift; sourceTree = "<group>"; };
+		18E6905F20849BA0007FCA36 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = Library/Frameworks/AppleScriptObjC.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			children = (
 				18298A4E207F028800D9E040 /* MetalDemo */,
 				18A262F5207F3F200020D082 /* One */,
+				18E6905E20849BA0007FCA36 /* Frameworks */,
 				18298A4D207F028800D9E040 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +106,14 @@
 				18A26300207F3F220020D082 /* One.entitlements */,
 			);
 			path = One;
+			sourceTree = "<group>";
+		};
+		18E6905E20849BA0007FCA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E6905F20849BA0007FCA36 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
