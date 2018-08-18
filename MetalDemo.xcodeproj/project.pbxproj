@@ -48,6 +48,7 @@
 		F43CA7462081E5650068A13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F43CA7482081E5650068A13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43CA7492081E5650068A13D /* Triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Triangle.entitlements; sourceTree = "<group>"; };
+		18E6905F20849BA0007FCA36 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = Library/Frameworks/AppleScriptObjC.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				18298A4E207F028800D9E040 /* MetalDemo */,
 				18A262F5207F3F200020D082 /* One */,
 				F43CA7402081E5600068A13D /* Triangle */,
+				18E6905E20849BA0007FCA36 /* Frameworks */,
 				18298A4D207F028800D9E040 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +136,12 @@
 				F43CA7492081E5650068A13D /* Triangle.entitlements */,
 			);
 			path = Triangle;
+		18E6905E20849BA0007FCA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E6905F20849BA0007FCA36 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
