@@ -19,6 +19,9 @@
 		18A262FE207F3F220020D082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A262FC207F3F220020D082 /* Main.storyboard */; };
 		18A26305207F3F9F0020D082 /* OneRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A26304207F3F9F0020D082 /* OneRender.swift */; };
 		18A26307207F441A0020D082 /* OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A26306207F441A0020D082 /* OneView.swift */; };
+		F43CA7422081E5600068A13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CA7412081E5600068A13D /* AppDelegate.swift */; };
+		F43CA7442081E5650068A13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43CA7432081E5650068A13D /* Assets.xcassets */; };
+		F43CA7472081E5650068A13D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43CA7452081E5650068A13D /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,12 @@
 		18A26300207F3F220020D082 /* One.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = One.entitlements; sourceTree = "<group>"; };
 		18A26304207F3F9F0020D082 /* OneRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRender.swift; sourceTree = "<group>"; };
 		18A26306207F441A0020D082 /* OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneView.swift; sourceTree = "<group>"; };
+		F43CA73F2081E5600068A13D /* Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43CA7412081E5600068A13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F43CA7432081E5650068A13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43CA7462081E5650068A13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F43CA7482081E5650068A13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43CA7492081E5650068A13D /* Triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Triangle.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F43CA73C2081E5600068A13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +80,7 @@
 			children = (
 				18298A4E207F028800D9E040 /* MetalDemo */,
 				18A262F5207F3F200020D082 /* One */,
+				F43CA7402081E5600068A13D /* Triangle */,
 				18298A4D207F028800D9E040 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +90,7 @@
 			children = (
 				18298A4C207F028800D9E040 /* MetalDemo.app */,
 				18A262F4207F3F200020D082 /* One.app */,
+				F43CA73F2081E5600068A13D /* Triangle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +122,18 @@
 				18A26300207F3F220020D082 /* One.entitlements */,
 			);
 			path = One;
+			sourceTree = "<group>";
+		};
+		F43CA7402081E5600068A13D /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				F43CA7412081E5600068A13D /* AppDelegate.swift */,
+				F43CA7432081E5650068A13D /* Assets.xcassets */,
+				F43CA7452081E5650068A13D /* MainMenu.xib */,
+				F43CA7482081E5650068A13D /* Info.plist */,
+				F43CA7492081E5650068A13D /* Triangle.entitlements */,
+			);
+			path = Triangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +173,23 @@
 			productReference = 18A262F4207F3F200020D082 /* One.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F43CA73E2081E5600068A13D /* Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43CA74C2081E5650068A13D /* Build configuration list for PBXNativeTarget "Triangle" */;
+			buildPhases = (
+				F43CA73B2081E5600068A13D /* Sources */,
+				F43CA73C2081E5600068A13D /* Frameworks */,
+				F43CA73D2081E5600068A13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triangle;
+			productName = Triangle;
+			productReference = F43CA73F2081E5600068A13D /* Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +204,9 @@
 						CreatedOnToolsVersion = 9.3;
 					};
 					18A262F3207F3F200020D082 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F43CA73E2081E5600068A13D = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -176,6 +226,7 @@
 			targets = (
 				18298A4B207F028800D9E040 /* MetalDemo */,
 				18A262F3207F3F200020D082 /* One */,
+				F43CA73E2081E5600068A13D /* Triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +251,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F43CA73D2081E5600068A13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CA7442081E5650068A13D /* Assets.xcassets in Resources */,
+				F43CA7472081E5650068A13D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -221,6 +281,14 @@
 				18A26307207F441A0020D082 /* OneView.swift in Sources */,
 				18A26305207F3F9F0020D082 /* OneRender.swift in Sources */,
 				18A262F7207F3F200020D082 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CA73B2081E5600068A13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CA7422081E5600068A13D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +317,14 @@
 				18A262FD207F3F220020D082 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F43CA7452081E5650068A13D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43CA7462081E5650068A13D /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,6 +526,50 @@
 			};
 			name = Release;
 		};
+		F43CA74A2081E5650068A13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triangle/Triangle.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WEZ4TNATDY;
+				INFOPLIST_FILE = Triangle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.Triangle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F43CA74B2081E5650068A13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triangle/Triangle.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WEZ4TNATDY;
+				INFOPLIST_FILE = Triangle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Pan.Triangle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,6 +596,15 @@
 			buildConfigurations = (
 				18A26301207F3F220020D082 /* Debug */,
 				18A26302207F3F220020D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43CA74C2081E5650068A13D /* Build configuration list for PBXNativeTarget "Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CA74A2081E5650068A13D /* Debug */,
+				F43CA74B2081E5650068A13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
